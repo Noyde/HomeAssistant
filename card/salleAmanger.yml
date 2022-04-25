@@ -1,0 +1,14 @@
+type: vertical-stack
+cards:
+  - type: custom:button-card
+    color_type: label-card
+    color: rgb(44, 109, 214)
+    name: Salon
+  - type: horizontal-stack
+    cards:
+    - type: custom:button-card
+      entity: cover.shutter_salleamanger_salle_a_manger
+      color_type: icon
+      state_color: true
+      show_name: false
+      name: cover salle a manger

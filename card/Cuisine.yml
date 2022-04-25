@@ -1,0 +1,44 @@
+type: vertical-stack
+cards:
+  - type: custom:button-card
+    color_type: label-card
+    color: rgb(44, 109, 214)
+    name: Cuisine
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: binary_sensor.porte_celier_contact
+        color_type: icon
+        state_color: true
+        show_name: false
+        name: Porte Service
+      - type: custom:button-card
+        entity: cover.shutter_cuisine_cuisine
+        color_type: icon
+        state_color: true
+        show_name: false
+        name: Cover fenetre cuisine
+      - type: custom:button-card
+        entity: cover.shutter_baie_cuisine_cuisine
+        color_type: icon
+        state_color: true
+        show_name: false
+        name: Cover Baie cuisine
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: light.strip2_cloud_288993
+        color_type: icon
+        state_color: true
+        show_name: false
+        name: Led cuisine
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: sensor.temperature_module_interieu_cuisine
+        color_type: icon
+        state_color: true
+        show_name: false
+        show_state: true
+        show_icon: false
+        name: Temperature cuisine

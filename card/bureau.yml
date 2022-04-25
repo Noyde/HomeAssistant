@@ -1,0 +1,32 @@
+type: vertical-stack
+cards:
+  - type: custom:button-card
+    color_type: label-card
+    color: rgb(44, 109, 214)
+    name: Bureau
+  - type: horizontal-stack
+    cards:
+    - type: custom:button-card
+      entity: binary_sensor.fenetre_bureau_contact
+      color_type: icon
+      state_color: true
+      show_name: false
+      name: fenetre Bureau
+    - type: custom:button-card
+      entity: cover.shutter_bureau_bureau
+      color_type: icon
+      state_color: true
+      show_name: false
+      name: cover Bureau
+    - type: custom:button-card
+      entity: light.lumiere_bureau
+      color_type: icon
+      state_color: true
+      show_name: false
+      name: lumiere Bureau
+    - type: custom:button-card
+      entity: switch.smart_plug_bureau
+      color_type: icon
+      state_color: true
+      show_name: false
+      name: smart plug Bureau

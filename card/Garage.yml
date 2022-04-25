@@ -1,0 +1,19 @@
+type: vertical-stack
+cards:
+  - type: 'custom:button-card'
+    color_type: label-card
+    color: rgb(44, 109, 214)
+    name: Garage
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: binary_sensor.portail_garage_contact_2
+        color_type: icon
+        state_color: true
+        show_name: false
+        name: Portail
+
+
+
+
+        

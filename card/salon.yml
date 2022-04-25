@@ -1,0 +1,7 @@
+type: vertical-stack
+cards:
+  - type: custom:button-card
+    color_type: label-card
+    color: rgb(44, 109, 214)
+    name: Salle à manger
+

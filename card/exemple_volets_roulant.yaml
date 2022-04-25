@@ -1,0 +1,73 @@
+type: vertical-stack
+title: Centralisation des volets
+cards:
+  - type: 'custom:button-card'
+    color: 'rgba(255, 255, 255.)'
+    name: Tout ouvrir
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        entity: switch.kitchen_scene_1
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter-open'
+        name: piscine
+      - type: 'custom:button-card'
+        entity: switch.kitchen_scene_2
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter-open'
+        name: terrasse
+      - type: 'custom:button-card'
+        entity: switch.kitchen_scene_3
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter-open'
+        name: bar
+      - type: 'custom:button-card'
+        entity: switch.kitchen_scene_4
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter-open'
+        name: cuisine
+      - type: 'custom:button-card'
+        entity: switch.kitchen_off
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter-open'
+        name: lecture
+  - type: 'custom:button-card'
+    color: 'rgba(255, 255, 255.)'
+    name: Tout fermer
+  - type: horizontal-stack
+    cards:
+      - type: 'custom:button-card'
+        entity: switch.kitchen_scene_1
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter'
+        name: piscine
+      - type: 'custom:button-card'
+        entity: switch.kitchen_scene_2
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter'
+        name: terrasse
+      - type: 'custom:button-card'
+        entity: switch.kitchen_scene_3
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter'
+        name: bar
+      - type: 'custom:button-card'
+        entity: switch.kitchen_scene_4
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter'
+        name: cuisine
+      - type: 'custom:button-card'
+        entity: switch.kitchen_off
+        color_type: card
+        color: 'rgba(255, 255, 255.)'
+        icon: 'mdi:window-shutter'
+        name: lecture

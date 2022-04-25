@@ -1,0 +1,26 @@
+type: vertical-stack
+cards:
+  - type: 'custom:button-card'
+    color_type: label-card
+    color: rgb(44, 109, 214)
+    name: Cellier
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: binary_sensor.porte_service_contact
+        color_type: icon
+        state_color: true
+        show_name: false
+        name: Porte Service
+      - type: custom:button-card
+        entity: light.lumiere_celier
+        color_type: icon
+        state_color: true
+        show_name: false
+        name : Lumiere Celier
+      - type: custom:button-card
+        entity: binary_sensor.detecteur_de_mouvements_occupancy
+        color_type: icon
+        state_color: true
+        show_name: false
+        name: Detecteur Mouvement Celier

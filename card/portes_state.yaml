@@ -1,0 +1,24 @@
+type: vertical-stack
+title: Portes
+cards:
+  - type: horizontal-stack
+    cards:
+      - type: custom:button-card
+        entity: binary_sensor.portail_garage_contact_2
+        color_type: icon
+        state_color: true
+        show_label: false
+        name: Garage
+      - type: custom:button-card
+        entity: binary_sensor.porte_service_contact
+        color_type: icon
+        state_color: true
+        show_label: false
+        name: Service
+      - type: custom:button-card
+        entity: binary_sensor.porte_celier_contact
+        color_type: icon
+        state_color: true
+        show_label: false
+        name: Célier
+ 
